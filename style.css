@@ -10,21 +10,6 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  li {
-    font-size: 11px;
-    list-style: none;
-    line-height: 1rem;
-    padding: .5rem;
-    width: 80px;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-
-  li:hover {
-    color: greenyellow;
-    background-color: rgba(19, 16, 27, 0.75);
-  }
-
   .toggle-btn {
     padding: .4rem .6rem;
     font-weight: bold;
@@ -43,9 +28,48 @@
     transition: ease-in .8s;
   }
 
-  .menu {
+  ul li {
     width: 100%;
     transition-duration: ease-in-out 500ms;
+
+    position: absolute;
+    top: 0px;
+    right: 70px;
+  }
+
+  .item2 {
+    top: 25px;
+  }
+
+  .item3 {
+    top: 50px;
+  }
+
+  .item4 {
+    top: 75px;
+  }
+
+  .item5 {
+    top: 100px;
+  }
+
+  .item6 {
+    top: 125px;
+  }
+
+  .list-item {
+    font-size: 11px;
+    list-style: none;
+    line-height: 1rem;
+    padding: .3rem;
+    width: 80px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .list-item:hover {
+    color: greenyellow;
+    background-color: rgba(19, 16, 27, 0.75);
   }
 
   .close-btn {

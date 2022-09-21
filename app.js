@@ -1,13 +1,13 @@
 const openBtn = document.querySelector('#toggle');
-openBtn.addEventListener('click', openNow);
+  openBtn.addEventListener('mouseover', firstFunction);
 
-function openNow() {
-  document.querySelector('#sidebar-toggle').style.width = '150px';
-}
+    function firstFunction() {
+      document.querySelector('.sidebar').style.width = '150px';
+    }
 
 const closeBtn = document.querySelector('#close');
-closeBtn.addEventListener('click', closeNow);
+  closeBtn.addEventListener('mouseover', secondFunction);
 
-function closeNow() {
-  document.querySelector('.sidebar').style.width = '0px';
-}
+    function secondFunction() {
+      document.querySelector('#sidebar-toggle').style.width = '0px';
+    }
