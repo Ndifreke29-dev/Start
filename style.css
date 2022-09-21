@@ -34,7 +34,7 @@
 
     position: absolute;
     top: 0px;
-    right: 70px;
+    right: 60px;
   }
 
   .item2 {
@@ -74,13 +74,15 @@
 
   .close-btn {
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border: none;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: greenyellow;
     cursor: pointer;
+
+    font-size: .6rem;
 
     position: absolute;
     top: 10px;

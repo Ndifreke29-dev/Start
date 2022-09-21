@@ -6,8 +6,14 @@ const openBtn = document.querySelector('#toggle');
     }
 
 const closeBtn = document.querySelector('#close');
-  closeBtn.addEventListener('mouseover', secondFunction);
+  closeBtn.addEventListener('click', secondFunction);
 
     function secondFunction() {
       document.querySelector('#sidebar-toggle').style.width = '0px';
     }
+
+document.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
