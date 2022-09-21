@@ -23,3 +23,9 @@ document.addEventListener("click", myFunction);
 function myFunction() {
   document.getElementById('sidebar-toggle').style.width = '0px';
 }
+
+
+// Change Background
+document.addEventListener("click", function() {
+  document.body.style.backgroundColor = "red";
+});
